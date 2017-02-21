@@ -4,8 +4,6 @@
 
 *   [`espeak`](http://espeak.sourceforge.net/)
 
-*   [`python3`](https://www.python.org/downloads/release/python-360/)
-
 *   A `*nix` system or emulator
 
 ###Usage:
@@ -19,16 +17,16 @@ git clone https://github.com/Noammac/infinite-random-meow.git
 cd infinte-random-meow
 ```
 
-Change `random_meow.sh` and `random_meow.py`'s mode to executable
+Change `meow.sh`'s mode to executable
 
 ```bash
-chmod u+x random_meow.sh random_meow.py
+chmod u+x meow.sh
 ```
 
 and execute it
 
 ```bash
-./random_meow.sh
+./meow.sh
 ```
 
 Enjoy the infinite meows!
