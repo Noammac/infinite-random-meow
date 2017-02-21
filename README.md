@@ -19,10 +19,10 @@ git clone https://github.com/Noammac/infinite-random-meow.git
 cd infinte-random-meow
 ```
 
-Change `random_meow.sh`'s mode to executable
+Change `random_meow.sh` and `random_meow.py`'s mode to executable
 
 ```bash
-chmod u+x random_meow.sh
+chmod u+x random_meow.sh random_meow.py
 ```
 
 and execute it
