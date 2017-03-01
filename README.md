@@ -1,12 +1,18 @@
-# infinite-random-meow
+#**infinite-random-meow**
 
-### Requirements:
+## Requirements:
+
+Linux:
 
 *   [`espeak`](http://espeak.sourceforge.net/)
 
-*   A `*nix` system or emulator
+Windows:
+*   [`SpeechMG`](https://bitbucket.org/MGStheCSguy/speechmg/src/b14064c582ae/Setup/?at=master) by my friend [Maoz Golan](https://MGStheCSguy@bitbucket.org/MGStheCSguy/)
+*   Windows Powershell 2.0
 
-###Usage:
+##Installation:
+
+#### Linux:
 
 Clone the repository and `cd` into it
 
@@ -23,10 +29,43 @@ Change `meow.sh`'s mode to executable
 chmod u+x meow.sh
 ```
 
-and execute it
+#### Windows:
+
+(Use PowerShell 2.0 for all commands)
+
+Clone the repository and `cd` into it
+
+```powershell
+git clone https://github.com/Noammac/infinite-random-meow.git
+```
+
+```powershell
+cd infinite-random-meow
+```
+
+Install  [`SpeechMG`](https://bitbucket.org/MGStheCSguy/speechmg.git) 
+
+Run
+
+```powershell
+Unblock-File -Path "meow.ps1"
+```
+
+## Usage:
+
+#### Linux:
+
+Run the script
 
 ```bash
 ./meow.sh
 ```
 
-Enjoy the infinite meows!
+#### Windows:
+
+Run the script
+
+```powershell
+.\meow.sh
+```
+
