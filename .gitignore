@@ -87,3 +87,6 @@ ENV/
 
 # Rope project settings
 .ropeproject
+
+# EXE has to be compiled specifically for each system
+SpeechMG,exe
