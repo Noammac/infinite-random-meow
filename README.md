@@ -1,4 +1,4 @@
-#**infinite-random-meow**
+# **infinite-random-meow**
 
 ## Requirements:
 
@@ -10,7 +10,7 @@ Windows:
 *   [`SpeechMG`](https://bitbucket.org/MGStheCSguy/speechmg/src/b14064c582ae/Setup/?at=master) by my friend [Maoz Golan](https://MGStheCSguy@bitbucket.org/MGStheCSguy/)
 *   Windows Powershell 2.0
 
-##Installation:
+## Installation:
 
 #### Linux:
 
