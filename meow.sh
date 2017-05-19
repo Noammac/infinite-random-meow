@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "To stop the program, press the \"q\" button"
+echo "To exit the program, press the \"q\" button"
 
 while true
 	do
@@ -17,12 +17,23 @@ while_pid=$!
 while true
     do
         read -n 1 -s
-        if [ "$REPLY" == "q" ]
-            then
+        case $REPLY in
+            q)
                 break
-        else
-            continue
-        fi
+                ;;
+            Q)
+                break
+                ;;
+            *)
+                continue
+                ;;
+        esac
+#        if [ "$REPLY" == "q" ]
+#            then
+#                break
+#        else
+#            continue
+#        fi
 done
 
 kill $while_pid
