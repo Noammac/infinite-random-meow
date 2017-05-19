@@ -18,10 +18,7 @@ while true
     do
         read -n 1 -s
         case $REPLY in
-            q)
-                break
-                ;;
-            Q)
+            q|Q)
                 break
                 ;;
             *)
