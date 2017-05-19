@@ -16,7 +16,7 @@ while_pid=$!
 
 while true
     do
-        read -n 1
+        read -n 1 -s
         if [ "$REPLY" == "q" ]
             then
                 break
